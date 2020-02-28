@@ -3,7 +3,6 @@
 #(french stop points ids are INSEE code but foreign stop points IDs ase selated to osm IDs)
 import requests
 from param import token
-import json
 
 url = 'https://api.sncf.com/v1/coverage/sncf/stop_points?start_page='
 
