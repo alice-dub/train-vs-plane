@@ -1,0 +1,30 @@
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/Chalarangelo/mini.css/v3.0.1/dist/mini-default.min.css">
+</head>
+
+<body>
+
+<div class="container" style="width:40%; margin-top: 12%;">
+    <h1>Avion, Voiture ou bien Train ?</h1>
+
+    <p>Quel est l'impact environnemental de vos déplacements ? </p>
+
+    <form method="post">
+        <label for="Depart"> ville de départ</label>
+        <select name="Depart">
+        {% for item in depart %}
+            <option  value="{{ item }}">{{ item }}</option>
+        {% endfor %}
+        </select>
+        <label for="Arrivee"> ville d'arrivée</label>
+        <select name="Arrivee">
+        {% for item in arrivee %}
+            <option  value="{{ item }}">{{ item }}</option>
+        {% endfor %}
+        </select>
+        <input type="submit" value="Calculer">
+    </form>
+</div>
+</body>
+</html>

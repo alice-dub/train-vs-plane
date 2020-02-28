@@ -1,0 +1,25 @@
+Ville,Aeroport,code_aeroport,code_sncf
+Paris, CDG, admin:fr:75056
+Nice, NCS, admin:fr:06088
+Lyon, LYS, admin:fr:69300
+Toulouse, TLS, admin:fr:31555
+Marseille,MRS, admin:fr:13055
+Bâle,BSL, XXXXXX
+Mulhouse,MLH, admin:fr:68224
+Fribourg,EAP, XXXXXX
+Bordeaux,BOD, admin:fr:33063
+Nantes,NTE, admin:fr:44109
+Lille, LIL, admin:fr:59350
+Montpellier, MPL, admin:fr:34172
+Biarritz,BIA, admin:fr:64122
+Strasbourg,SXB, admin:fr:67482
+Brest,BES, admin:fr:29019
+Rennes,RNS, admin:fr:35238
+Pau, PUF, admin:fr:64445
+Toulon,TLN, admin:fr:83137
+Perpignan,PGF, admin:fr:66136
+Tarbes,LDE, admin:fr:65440
+Clermont-Ferrand,CFE, admin:fr:63113
+Carcassonne, CCF, admin:fr:11069
+Grenoble, GNB, admin:fr:38185
+Metz,ETZ, admin:fr:57463
